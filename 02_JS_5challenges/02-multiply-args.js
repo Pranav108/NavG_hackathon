@@ -1,6 +1,6 @@
 // multiply arguments
 
-//reduce this to 4 line of code
+//reduce this to 1 line of code
 // function multiply() {
 //   const args = [...arguments]
 //   const result = args.reduce((total, item) => {
@@ -9,7 +9,9 @@
 //   return result
 // }
 
-
+function multiply(...a) {
+    return(a.reduce((total, item) => {return item ? item * total : item + total}))
+}
 // multiply(2, 3, 4, 5, 6, 7)
 
 console.log(multiply(4, 5))
