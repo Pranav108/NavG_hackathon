@@ -1,7 +1,6 @@
-const date1 = new Date('May 27, 2024')
-const date2 = new Date('Jan 5 , 2022')
-
-//reduce this to a single arrow function
+// const date1 = new Date('May 27, 2024')
+// const date2 = new Date('Jan 5 , 2022')
+// // reduce this to a single arrow function
 // const getDays = (date1,date2)=>{
 //   const oneDay = 1000 * 60 * 60 * 24;
 //   const time2 = date2.getTime();
@@ -13,6 +12,16 @@ const date2 = new Date('Jan 5 , 2022')
 //   time = Math.round(Math.abs(time))
 // return time
 // }
+// console.log(getDays(date1, date2))
 
 
+const date1 = new Date('May 27, 2024')
+const date2 = new Date('Jan 5 , 2022')
+const getDays = (date1,date2)=>{
+  const oneDay = 1000 * 60 * 60 * 24;
+  const time2 = date1.getTime()-date2.getTime();
+  time=time2/oneDay
+  time=Math.round(Math.abs(time))
+  return time
+}
 console.log(getDays(date1, date2))
