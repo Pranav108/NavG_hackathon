@@ -14,5 +14,7 @@ const date2 = new Date('Jan 5 , 2022')
 // return time
 // }
 
-
+const getDays=(date1,date2)=>{
+    const time=(date1.getTime()-date2.getTime())
+    return day=time/(1000 * 60 * 60 * 24)}
 console.log(getDays(date1, date2))
