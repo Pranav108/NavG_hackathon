@@ -20,6 +20,7 @@
 //reduce this to 3 line of code
 // const sum = (number) => {
 //   const items = [...(number + '')]
+//   console.log(items)
 //   const result = items.reduce((total, item) => {
 //     return total + Number(item)
 //   }, 0)
@@ -28,5 +29,23 @@
 // }
 
 
-console.log(sum(56))
+// const sum=(num)=>{var list=num.toString().split("")
+// let total=list.reduce((accumlator,value)=>{
+//     return Number(accumlator)+Number(value)
+//     })
+//      console.log(total)
+
+//    return ((total%2==0)?"EVEN":"ODD")}
+
+const sum=(num)=>{var list=num.toString().split("")
+total=0
+for (i of list){
+    total=total+Number(i)
+}
+console.log(total)
+   return ((total%2==0)?"EVEN":"ODD")}
+
+
 console.log(sum(745))
+console.log(sum(56))
+
