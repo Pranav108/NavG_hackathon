@@ -17,3 +17,7 @@ console.log(example(1, 2)(1, 2)(3, 4))
 
 // example(1,2)(0,1)(0,5)
 // 1 * 0 * 0 + 2 * 1 * 5 = 0 + 10 = 10
+
+// Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati voluptate maiores
+//  dignissimos repellat soluta quibusdam sequi, exercitationem molestiae fuga quos nisi nihil
+//   earum nulla reprehenderit, sed asperiores qui officiis numquam.
