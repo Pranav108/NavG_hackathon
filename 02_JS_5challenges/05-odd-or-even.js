@@ -26,7 +26,10 @@
 //   console.log(result)
 //   return result % 2 === 0 ? 'EVEN' : 'ODD'
 // }
-
+const sum = (number) => {const result = [...(number + '')].reduce((total, item) => {return total + Number(item)}, 0)
+  console.log(result)
+  return result % 2 === 0 ? 'EVEN' : 'ODD'
+}
 
 console.log(sum(56))
 console.log(sum(745))

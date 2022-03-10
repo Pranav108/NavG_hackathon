@@ -25,3 +25,5 @@ const third = [3, 3, 2, 8, 7, 6, 5]
 
 count(first)
 console.log(count(second))
+
+
