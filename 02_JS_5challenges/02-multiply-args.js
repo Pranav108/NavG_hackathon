@@ -10,6 +10,20 @@
 // }
 
 
+
+
+
+
+
+
+const multiply = (...args) =>
+  args.reduce((total, item) => total * (item || 1), 1)
+
+
+
+
+
+
 // multiply(2, 3, 4, 5, 6, 7)
 
 console.log(multiply(4, 5))
