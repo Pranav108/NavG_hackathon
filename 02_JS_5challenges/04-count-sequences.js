@@ -10,8 +10,7 @@ const third = [3, 3, 2, 8, 7, 6, 5]
 //
 
 //reduce this code to 2 lines of code
-// const count = (data) => {
-//   return data.reduce((total, item, index) => {
+// const count = (data) => {data.reduce((total, item, index) => {
 //     console.log(item)
 //     console.log(item === data[index + 2])
 //     console.log(item !== data[index + 1])
@@ -23,5 +22,21 @@ const third = [3, 3, 2, 8, 7, 6, 5]
 //   }, 0)
 // }
 
-count(first)
+// count(first) 
+// console.log(count(second))
+
+
+
+const count = (data) =>{
+  for(i=0;i<data.length;i++){
+    if(data[i]!==data[i+1]&&data[i]===data[i+2]){
+      const macth=[data[i],data[i+1],data[i+2]]
+      console.log(macth)
+    }
+  }
+}
+
+console.log(count(first))
 console.log(count(second))
+
+
