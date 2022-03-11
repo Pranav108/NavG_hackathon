@@ -17,7 +17,7 @@
 // parseFloat - for decimals
 // Number - returns NaN if not a number
 
-//reduce this to 3 line of code
+// reduce this to 3 line of code
 // const sum = (number) => {
 //   const items = [...(number + '')]
 //   const result = items.reduce((total, item) => {
@@ -28,5 +28,12 @@
 // }
 
 
+// const sum = ([...(number + '')])=>items.reduce((total, item)=>total + Number(item),0)
 console.log(sum(56))
 console.log(sum(745))
+
+// const multiply = (...args) =>args.reduce((total, item) => total * (item), 1)
+// console.log(multiply(2, 3, 4, 5, 6, 7))
+
+
+
