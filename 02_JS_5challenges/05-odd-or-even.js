@@ -18,15 +18,9 @@
 // Number - returns NaN if not a number
 
 //reduce this to 3 line of code
-// const sum = (number) => {
-//   const items = [...(number + '')]
-//   const result = items.reduce((total, item) => {
-//     return total + Number(item)
-//   }, 0)
-//   console.log(result)
-//   return result % 2 === 0 ? 'EVEN' : 'ODD'
-// }
-
-
+const sum = (number) => {const items = [...(number + '')]
+  const result = items.reduce((total, item) => total + Number(item),0)
+  return result % 2 === 0 ? 'EVEN' : 'ODD'
+}
 console.log(sum(56))
 console.log(sum(745))

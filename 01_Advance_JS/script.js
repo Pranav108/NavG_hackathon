@@ -55,7 +55,6 @@ TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Th
 GOOD LUCK 😀
 */
 
-
 // Coding Challenge #2
 /* 
 Let's continue with our football betting app!
