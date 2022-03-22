@@ -13,12 +13,12 @@ This repo consist of some task for hackathon for the JS student of NavGurukul.
 
 
 ```markdown
-git clone https://github.com/Pranav108/NavG_hackathon.git
+git clone https://github.com/Your-Username-Here/NavG_hackathon.git
 ```
 
 #### 3. Set your streams (For sync your clone with the original repo)
 ```markdown
-git remote add upstream https://github.com/Pranav108/NavG_hackathon.git
+git remote add upstream https://github.com/Your-Username-Here/NavG_hackathon.git
 git pull upstream master
 ```
 #### 4. Add your solution in `Script.js` file
