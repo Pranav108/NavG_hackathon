@@ -1,4 +1,4 @@
 //write some code to change the followers in current screen 
-const display = () => { }
+const display = (follower_img) => { }
 
 export default display
