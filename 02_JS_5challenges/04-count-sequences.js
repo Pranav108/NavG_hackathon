@@ -10,18 +10,7 @@ const third = [3, 3, 2, 8, 7, 6, 5]
 //
 
 //reduce this code to 2 lines of code
-// const count = (data) => {
-//   return data.reduce((total, item, index) => {
-//     console.log(item)
-//     console.log(item === data[index + 2])
-//     console.log(item !== data[index + 1])
-//     const match = item === data[index + 2] && item !== data[index + 1]
-//     if (match) {
-//       return total + 1
-//     }
-//     return total
-//   }, 0)
-// }
-
-count(first)
+const count = (data) => {return data.reduce((total, item, index) => {
+    return match = item === data[index + 2] && item !== data[index + 1] ?total+ 1:total},0)}
+console.logcount(first)
 console.log(count(second))
