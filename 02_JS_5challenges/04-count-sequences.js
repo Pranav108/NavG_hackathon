@@ -23,5 +23,15 @@ const third = [3, 3, 2, 8, 7, 6, 5]
 //   }, 0)
 // }
 
+const count=(data)=>{
+    for (i=0;i<data.length;i++){
+        if (data [i]!==data[i+1] && data[i]===data[i+2]){
+            const match=[data[i],data[i+1],data[i+2]]
+        console.log(match)
+        }
+    }
+}
+
+
 count(first)
 console.log(count(second))
