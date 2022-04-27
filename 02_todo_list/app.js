@@ -18,14 +18,28 @@ let editID = "";
 // display items onload
 
 // ****** functions **********
-
 // add item
 
+function add(){
+list=[]
+let s=require('readline-sync')
+for (i=0;i<5;i++){
+    work_name=s.question("enter the list")
+    list.push(work_name)
+    }
+    console.log(list)
+}
+add()
+
 // display alert
-
+console.log(list)
 // clear items
-
+for ( i of list){
+    delete_item=
+    list.pop(i)
+console.log(list)}
 // delete item
+
 
 // edit item
 

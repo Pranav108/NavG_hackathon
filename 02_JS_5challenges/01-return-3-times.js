@@ -7,7 +7,8 @@
 //     }
 //   }
 // }
-
+const example=(a,b)=>(c,d)=>(e,f)=>{console.log(a, b, c, d, e, f)
+  return a*c*e + b*d*f}
 
 console.log(example(1, 2)(3, 4)(5, 6))
 
